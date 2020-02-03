@@ -1,3 +1,9 @@
+/*John Lawless
+    g00351835@gmit.ie
+    Calculator maven test
+    This is a file that adds two numbers
+ */
+
 package ie.gmit;
 
 public class Calculator {
