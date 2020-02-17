@@ -18,12 +18,9 @@ public class Calculator {
     }
 
     public Calculator(double num1, double num2) {
-        if(num1 == 0 || num2 == 0)
-            throw new IllegalArgumentException("Must be greater than 0");
-        else {
             this.num1 = num1;
             this.num2 = num2;
-        }
+
     }
 
     public double getNum1() {
@@ -59,6 +56,9 @@ public class Calculator {
     }
 
     public double divideNumbers(double num1, double num2){
+        if(num1 == 0 || num2 == 0)
+            throw new IllegalArgumentException("Must be greater than 0");
+        else
         result =  num1 / num2;
         return result;
     }

@@ -38,8 +38,20 @@ public class CalculatorTest {
 
     @DisplayName("***********Testing division by zero throws exception ***********")
     @Test
-    void testDiv0(){
-        assertThrows(IllegalArgumentException.class, ()->{new Calculator(10,0);});
+    void testDivnum20(){
+        assertThrows(IllegalArgumentException.class, ()->{calculator.divideNumbers(10,0);});
+    }
+
+    @DisplayName("***********Testing division by zero throws exception ***********")
+    @Test
+    void testDivnum10(){
+        assertThrows(IllegalArgumentException.class, ()->{calculator.divideNumbers(0,10);});
+    }
+
+    @DisplayName("***********Testing division by zero throws exception ***********")
+    @Test
+    void testTwoArgConstructor(){
+        calculator = new Calculator(10,5);
     }
 
     @BeforeEach
