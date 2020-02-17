@@ -11,6 +11,10 @@ public class CalculatorTest {
     void setUp() {
         calculator = new Calculator();
     }
+    @AfterEach
+    void printOut(){
+        calculator.toString();
+    }
 
     @DisplayName("***********Testing addition of two numbers ***********")
     @Test
@@ -22,6 +26,7 @@ public class CalculatorTest {
     @Test
     void testSub(){
         assertEquals(5, calculator.subtractNumbers(10, 5));
+
     }
 
     @DisplayName("***********Testing multiplication of two numbers ***********")

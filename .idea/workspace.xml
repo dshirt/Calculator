@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="957d303e-8cee-4417-a8f6-c288f9d73f36" name="Default Changelist" comment="Commit adds methods to Calculator for multiply, divide and subtract. Also Test added with junit.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/CalculatorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="957d303e-8cee-4417-a8f6-c288f9d73f36" name="Default Changelist" comment="Commit adds methods to Calculator for multiply, divide and subtract. Also Test added with junit." />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ie/gmit/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="41" column="83" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
+            <state relative-caret-position="238">
+              <caret line="47" column="85" selection-start-line="47" selection-start-column="85" selection-end-line="47" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#192#193#0" expanded="true" />
@@ -54,6 +49,8 @@
                 <element signature="e#896#897#0" expanded="true" />
                 <element signature="e#1040#1041#0" expanded="true" />
                 <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1271#1272#0" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
                 <element signature="e#1269#1270#0" expanded="true" />
                 <element signature="e#1312#1313#0" expanded="true" />
               </folding>
@@ -284,7 +281,7 @@
       <workItem from="1581325316614" duration="18000" />
       <workItem from="1581325413968" duration="83000" />
       <workItem from="1581326891615" duration="614000" />
-      <workItem from="1581930182934" duration="4843000" />
+      <workItem from="1581930182934" duration="5314000" />
     </task>
     <servers />
   </component>
@@ -303,7 +300,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6208000" />
+    <option name="totallyTimeSpent" value="6679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -379,8 +376,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ie/gmit/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="41" column="83" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
+        <state relative-caret-position="238">
+          <caret line="47" column="85" selection-start-line="47" selection-start-column="85" selection-end-line="47" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
@@ -394,6 +391,8 @@
             <element signature="e#896#897#0" expanded="true" />
             <element signature="e#1040#1041#0" expanded="true" />
             <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
             <element signature="e#1269#1270#0" expanded="true" />
             <element signature="e#1312#1313#0" expanded="true" />
           </folding>
